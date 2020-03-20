@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test_Automation_Master_Project" duration-ms="11234" started-at="2020-03-20T15:11:44Z" finished-at="2020-03-20T15:11:55Z">
+    <groups>
+    </groups>
+    <test name="BCV Tests" duration-ms="11234" started-at="2020-03-20T15:11:44Z" finished-at="2020-03-20T15:11:55Z">
+      <class name="testCases.LoginTest">
+        <test-method status="PASS" signature="processes(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@b7dd107]" name="processes" duration-ms="9408" started-at="2020-03-20T15:11:45Z" data-provider="testDataFeed" finished-at="2020-03-20T15:11:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://testing.bconview.com/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hernano]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test2001!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- processes -->
+      </class> <!-- testCases.LoginTest -->
+      <class name="testCases.LogoutTest">
+        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.LogoutTest@42eca56e]" name="processes" duration-ms="1159" started-at="2020-03-20T15:11:54Z" finished-at="2020-03-20T15:11:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- processes -->
+      </class> <!-- testCases.LogoutTest -->
+      <class name="testCases.TestBase">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.TestBase@6950e31]" name="initialize" is-config="true" duration-ms="10582" started-at="2020-03-20T15:11:33Z" finished-at="2020-03-20T15:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:testCases.TestBase@6950e31]" name="TeardownTest" is-config="true" duration-ms="795" started-at="2020-03-20T15:11:55Z" finished-at="2020-03-20T15:11:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- testCases.TestBase -->
+    </test> <!-- BCV Tests -->
+  </suite> <!-- Test_Automation_Master_Project -->
+</testng-results>
