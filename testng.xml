@@ -5,10 +5,10 @@
 		<classes>
 			<class name="testCases.TestBase" />
 			<class name="testCases.LoginTest" />
-			<!-- <class name="testCases.OrganizationSetupTest" /> -->
-			<!-- <class name="testCases.CreateNewGroupTest"/> -->
-			<!-- <class name="testCases.AddUserToGroupTest"/> -->
-			<!-- <class name="testCases.RemoveUserFromGroupTest"/> -->
+			<class name="testCases.OrganizationSetupTest" />
+			<class name="testCases.CreateNewGroupTest"/>
+			<class name="testCases.AddUserToGroupTest"/>
+			<class name="testCases.RemoveUserFromGroupTest"/>
 			<!-- <class name="testCases.CreateNewWorkspaceTest" /> -->
 			<!-- <class name="testCases.CreateNewSystemRoleTest"/> -->
 			<!-- <class name="testCases.AddRoleToGroupTest"/> -->
@@ -17,7 +17,7 @@
 			<!-- <class name="testCases.AssignComponentsToWorkspaceTest" /> -->
 			<!-- <class name="testCases.AssignUsersToWorkspaceTest" /> -->
 			<!-- <class name="testCases.ArchivePurgeWorkspaceTest" /> -->
-			<!-- <class name="testCases.DeleteGroupTest" /> -->
+			<class name="testCases.DeleteGroupTest" />
 			<class name="testCases.LogoutTest" />
 		</classes>
 	</test> <!-- BCV Tests -->
