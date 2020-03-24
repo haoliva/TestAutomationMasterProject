@@ -3,20 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Test_Automation_Master_Project]">
   <test thread-count="5" name="BCV Tests(failed)">
     <classes>
-      <class name="testCases.LoginTest">
+      <class name="testCases.DeleteGroupTest">
         <methods>
-          <include name="processes" invocation-numbers="0"/>
           <include name="initialize"/>
           <include name="TeardownTest"/>
-        </methods>
-      </class> <!-- testCases.LoginTest -->
-      <class name="testCases.LogoutTest">
-        <methods>
           <include name="processes"/>
-          <include name="initialize"/>
-          <include name="TeardownTest"/>
         </methods>
-      </class> <!-- testCases.LogoutTest -->
+      </class> <!-- testCases.DeleteGroupTest -->
     </classes>
   </test> <!-- BCV Tests(failed) -->
 </suite> <!-- Failed suite [Test_Automation_Master_Project] -->

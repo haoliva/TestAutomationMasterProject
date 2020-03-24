@@ -24,7 +24,7 @@ public class ManageUsersInGroupPage {
 //	@FindBy(xpath="//span[@tabindex='-1']") WebElement searchUsertoAdd;
 	@FindBy(xpath="//input[@class='form-control ui-select-search ng-valid ng-dirty ng-valid-parse ng-touched']") WebElement searchUsertoAdd;
 	@FindBy(xpath="//span[contains(text(),'Edit Group Users')]") WebElement editGroupUsersTitle;
-	@FindBy(css="button.btn") WebElement addUserToGroup;
+	@FindBy(xpath="//button[@class='btn btn-sm btn-floating-action btn-default ng-scope']") WebElement addUserToGroup;
 	@FindBy(xpath="//span[contains(text(),'BCV Reader')]") WebElement userToAdd;
 	
 	 @FindBy(xpath="//button[contains(@tooltip,'Remove User')]") WebElement removeUserButton;
@@ -72,7 +72,7 @@ public class ManageUsersInGroupPage {
 		TestBase.weVisible(editGroupUsersTitle);
 		searchUserToAddInGroup.click();
 		enterUserToAddInGroup.sendKeys(usr);
-		TestBase.weVisible(userToAdd);
+//		TestBase.weVisible(userToAdd);
 		enterUserToAddInGroup.sendKeys(Keys.ENTER);
 		addUserToGroup.click();
 	}	

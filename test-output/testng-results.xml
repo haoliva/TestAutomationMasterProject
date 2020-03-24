@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="8" total="12" passed="4">
+<testng-results skipped="0" failed="0" ignored="10" total="15" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Test_Automation_Master_Project" duration-ms="44570" started-at="2020-03-24T16:16:12Z" finished-at="2020-03-24T16:16:56Z">
+  <suite name="Test_Automation_Master_Project" duration-ms="39428" started-at="2020-03-24T19:52:22Z" finished-at="2020-03-24T19:53:02Z">
     <groups>
     </groups>
-    <test name="BCV Tests" duration-ms="44570" started-at="2020-03-24T16:16:12Z" finished-at="2020-03-24T16:16:56Z">
+    <test name="BCV Tests" duration-ms="39428" started-at="2020-03-24T19:52:22Z" finished-at="2020-03-24T19:53:02Z">
       <class name="testCases.OrganizationSetupTest">
-        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.OrganizationSetupTest@7cbd213e]" name="processes" duration-ms="11327" started-at="2020-03-24T16:16:35Z" finished-at="2020-03-24T16:16:46Z">
+        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.OrganizationSetupTest@192d3247]" name="processes" duration-ms="10313" started-at="2020-03-24T19:52:32Z" finished-at="2020-03-24T19:52:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- processes -->
       </class> <!-- testCases.OrganizationSetupTest -->
+      <class name="testCases.LogoutTest">
+        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.LogoutTest@43bd930a]" name="processes" duration-ms="474" started-at="2020-03-24T19:53:01Z" finished-at="2020-03-24T19:53:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- processes -->
+      </class> <!-- testCases.LogoutTest -->
       <class name="testCases.LoginTest">
-        <test-method status="PASS" signature="processes(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@52f759d7]" name="processes" duration-ms="10513" started-at="2020-03-24T16:16:24Z" data-provider="testDataFeed" finished-at="2020-03-24T16:16:34Z">
+        <test-method status="PASS" signature="processes(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@7cbd213e]" name="processes" duration-ms="8684" started-at="2020-03-24T19:52:23Z" data-provider="testDataFeed" finished-at="2020-03-24T19:52:32Z">
           <params>
             <param index="0">
               <value>
@@ -35,24 +41,24 @@
           </reporter-output>
         </test-method> <!-- processes -->
       </class> <!-- testCases.LoginTest -->
-      <class name="testCases.LogoutTest">
-        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.LogoutTest@3ecd23d9]" name="processes" duration-ms="617" started-at="2020-03-24T16:16:56Z" finished-at="2020-03-24T16:16:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- processes -->
-      </class> <!-- testCases.LogoutTest -->
       <class name="testCases.TestBase">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.TestBase@42eca56e]" name="initialize" is-config="true" duration-ms="60033" started-at="2020-03-24T16:15:12Z" finished-at="2020-03-24T16:16:12Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.TestBase@52f759d7]" name="initialize" is-config="true" duration-ms="10817" started-at="2020-03-24T19:52:12Z" finished-at="2020-03-24T19:52:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:testCases.TestBase@42eca56e]" name="TeardownTest" is-config="true" duration-ms="1235" started-at="2020-03-24T16:16:57Z" finished-at="2020-03-24T16:16:58Z">
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:testCases.TestBase@52f759d7]" name="TeardownTest" is-config="true" duration-ms="689" started-at="2020-03-24T19:53:02Z" finished-at="2020-03-24T19:53:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->
       </class> <!-- testCases.TestBase -->
+      <class name="testCases.DeleteGroupTest">
+        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.DeleteGroupTest@569cfc36]" name="processes" duration-ms="9622" started-at="2020-03-24T19:52:52Z" finished-at="2020-03-24T19:53:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- processes -->
+      </class> <!-- testCases.DeleteGroupTest -->
       <class name="testCases.CreateNewGroupTest">
-        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.CreateNewGroupTest@192d3247]" name="processes" duration-ms="9717" started-at="2020-03-24T16:16:46Z" finished-at="2020-03-24T16:16:56Z">
+        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.CreateNewGroupTest@3ecd23d9]" name="processes" duration-ms="9684" started-at="2020-03-24T19:52:42Z" finished-at="2020-03-24T19:52:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- processes -->

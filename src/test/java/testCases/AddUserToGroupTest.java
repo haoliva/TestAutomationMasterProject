@@ -16,8 +16,8 @@ public class AddUserToGroupTest  extends TestBase{
 	public void processes() throws Exception{
 		ManageGroupPage groupspage =  PageFactory.initElements(driver,ManageGroupPage.class);
 		
-		groupspage.CollapseMenu();
-		groupspage.GotoGroups();
+//		groupspage.CollapseMenu();
+//		groupspage.GotoGroups();
 		
 		groupspage.SearchGroup(grp);
 		

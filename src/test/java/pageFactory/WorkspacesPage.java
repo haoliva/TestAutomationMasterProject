@@ -23,7 +23,7 @@ public class WorkspacesPage {
 	@FindBy(linkText = "Administration") WebElement administration;
 	@FindBy(css="locale-picker.form-control > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) > i:nth-child(3)") WebElement localeInNewWS;
 	@FindBy(xpath="//div[contains(text(),'English')]") WebElement localeSelectionInWS;
-	@FindBy(linkText="Content Administration") WebElement contentAdministration;
+	@FindBy(linkText="Organization Administration") WebElement contentAdministration;
 	@FindBy(linkText="Workspaces") WebElement workspaces;
 	@FindBy(xpath="//button[contains(@tooltip,'New')]") WebElement newWorkspace;
 	@FindBy(id="name") WebElement WsName;

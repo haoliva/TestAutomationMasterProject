@@ -70,6 +70,8 @@ public class ManageGroupPage {
 	
 	@FindBy(xpath="/html/body/div[1]/div[1]/div[3]/section/div/div/div/div/div/div[3]/div/div[2]/div/div/div[2]") WebElement pleaseWait;
 	@FindBy(xpath="/html/body/div[7]/div/div/div/div/p[2]/button[1]") WebElement confirmTask;
+	
+	@FindBy(xpath="//button[@ng-click-confirm-content='Are you sure you want to delete group New Group for Testing?']") WebElement confirmDelete;
 		
 	@FindBy(className = "toast-message") WebElement expectedMessage;
 	
@@ -153,6 +155,7 @@ public class ManageGroupPage {
 		TestBase.weClickeable(selectDeleteGroup);
 		selectDeleteGroup.click();
 		TestBase.weClickeable(confirmTask);
+		TestBase.weVisible(confirmDelete);
 		confirmTask.click();
 	}
 	
