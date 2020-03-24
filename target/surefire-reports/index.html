@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +102,27 @@
                     <div class="method-list-content passed suite-Test_Automation_Master_Project">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Master_Project" title="testCases.LoginTest" hash-for-method="processes(https://testing.bconview.com/login, hernano, Test2001!)">processes(https://testing.bconview.com/login, hernano, Test2001!)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Master_Project" title="testCases.DeleteGroupTest" hash-for-method="processes">processes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Master_Project" title="testCases.OrganizationSetupTest" hash-for-method="processes">processes</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Master_Project" title="testCases.LogoutTest" hash-for-method="processes">processes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Master_Project" title="testCases.CreateNewGroupTest" hash-for-method="processes">processes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Master_Project" title="testCases.LoginTest" hash-for-method="processes(https://testing.bconview.com/login, hernano, Test2001!)">processes(https://testing.bconview.com/login, hernano, Test2001!)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Test_Automation_Master_Project -->
@@ -122,6 +137,51 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Test_Automation_Master_Project" class="panel Test_Automation_Master_Project">
+          <div class="suite-Test_Automation_Master_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.OrganizationSetupTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="processes">
+                  </a> <!-- processes -->
+                  <span class="method-name">processes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_Master_Project-class-passed -->
+          <div class="suite-Test_Automation_Master_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.DeleteGroupTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="processes">
+                  </a> <!-- processes -->
+                  <span class="method-name">processes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_Master_Project-class-passed -->
+          <div class="suite-Test_Automation_Master_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.CreateNewGroupTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="processes">
+                  </a> <!-- processes -->
+                  <span class="method-name">processes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_Master_Project-class-passed -->
           <div class="suite-Test_Automation_Master_Project-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -167,6 +227,9 @@
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TestBase&quot;/&gt;
       &lt;class name=&quot;testCases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;testCases.OrganizationSetupTest&quot;/&gt;
+      &lt;class name=&quot;testCases.CreateNewGroupTest&quot;/&gt;
+      &lt;class name=&quot;testCases.DeleteGroupTest&quot;/&gt;
       &lt;class name=&quot;testCases.LogoutTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- BCV Tests --&gt;
@@ -181,7 +244,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">BCV Tests (3 classes)</span>
+                <span class="test-name">BCV Tests (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -207,20 +270,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'processes')
-data.setCell(0, 2, 'testCases.LoginTest')
-data.setCell(0, 3, 8690);
+data.setCell(0, 2, 'testCases.OrganizationSetupTest')
+data.setCell(0, 3, 10373);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'processes')
-data.setCell(1, 2, 'testCases.LogoutTest')
-data.setCell(1, 3, 1124);
+data.setCell(1, 2, 'testCases.DeleteGroupTest')
+data.setCell(1, 3, 9541);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'processes')
+data.setCell(2, 2, 'testCases.CreateNewGroupTest')
+data.setCell(2, 3, 8984);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'processes')
+data.setCell(3, 2, 'testCases.LoginTest')
+data.setCell(3, 3, 8516);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'processes')
+data.setCell(4, 2, 'testCases.LogoutTest')
+data.setCell(4, 3, 1099);
 window.suiteTableData['Test_Automation_Master_Project']= { tableData: data, tableDiv: 'times-div-Test_Automation_Master_Project'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
               <div id="times-div-Test_Automation_Master_Project">
               </div> <!-- times-div-Test_Automation_Master_Project -->
             </div> <!-- times-div -->
@@ -235,11 +310,29 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Test_Automation_Master_Project" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">10 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.LogoutTest</span>
+              <span class="ignored-class-name">testCases.OrganizationSetupTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialize</span>
+                <br/>
+                <span class="ignored-method-name">TeardownTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.DeleteGroupTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialize</span>
+                <br/>
+                <span class="ignored-method-name">TeardownTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.CreateNewGroupTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">initialize</span>
                 <br/>
@@ -249,6 +342,15 @@ return data;
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">testCases.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialize</span>
+                <br/>
+                <span class="ignored-method-name">TeardownTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.LogoutTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">initialize</span>
                 <br/>
@@ -274,21 +376,42 @@ return data;
               <div class="chronological-class-name">testCases.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">processes(https://testing.bconview.com/login, hernano, Test2001!)</span>
-                <span class="method-start">12558 ms</span>
+                <span class="method-start">11052 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.OrganizationSetupTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">processes</span>
+                <span class="method-start">19571 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.CreateNewGroupTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">processes</span>
+                <span class="method-start">29945 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.DeleteGroupTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">processes</span>
+                <span class="method-start">38929 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.LogoutTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">processes</span>
-                <span class="method-start">21251 ms</span>
+                <span class="method-start">48471 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TestBase</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">TeardownTest</span>
-                <span class="method-start">22421 ms</span>
+                <span class="method-start">49588 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
