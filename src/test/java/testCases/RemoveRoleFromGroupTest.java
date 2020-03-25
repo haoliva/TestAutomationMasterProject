@@ -15,12 +15,12 @@ public class RemoveRoleFromGroupTest extends TestBase{
 //		driver.navigate().refresh();
 		ManageGroupPage mgpage =  PageFactory.initElements(driver,ManageGroupPage.class);
 		
-		mgpage.CollapseMenu();
-		mgpage.GotoGroups();
+//		mgpage.CollapseMenu();
+//		mgpage.GotoGroups();
 		
-		mgpage.SearchGroup(grpName);
-		mgpage.ViewGroup();
-		mgpage.ManageUserRoles();
+//		mgpage.SearchGroup(grpName);
+//		mgpage.ViewGroup();
+//		mgpage.ManageUserRoles();
 		
 		mgpage.RemoveRoleFromGroup();
 	

@@ -15,8 +15,8 @@ public class AddRoleToGroupTest extends TestBase{
 //		driver.navigate().refresh();
 		ManageGroupPage mgpage =  PageFactory.initElements(driver,ManageGroupPage.class);
 		
-		mgpage.CollapseMenu();
-		mgpage.GotoGroups();
+//		mgpage.CollapseMenu();
+//		mgpage.GotoGroups();
 		
 		mgpage.SearchGroup(grpName);
 		mgpage.ViewGroup();

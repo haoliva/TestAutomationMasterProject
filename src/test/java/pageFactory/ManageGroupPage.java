@@ -134,6 +134,7 @@ public class ManageGroupPage {
 			viewGroup1.click();
 		}
 */
+		Thread.sleep(500);
 		TestBase.weVisible(viewGroup);
 		TestBase.weClickeable(viewGroup);
 //		viewGroup.click();
@@ -164,7 +165,7 @@ public class ManageGroupPage {
 		TestBase.weClickeable(selectManageUserRoles);
 		selectManageUserRoles.click();
 		TestBase.weVisible(editing);
-//		Thread.sleep(500);		
+		Thread.sleep(500);		
 	}
 	
 	public void AddRoleToGroup() throws Exception {
@@ -172,7 +173,7 @@ public class ManageGroupPage {
 		
 		selectGrantSystemRole.click();
 		TestBase.weVisible(authorityGrant);
-//		Thread.sleep(1500);
+		Thread.sleep(1500);
 		Actions msEvent = make.moveToElement(selectRole).click();
 		msEvent.perform();
 		
@@ -180,7 +181,7 @@ public class ManageGroupPage {
 		selectRoleSystemAdministrator.click();
 		
 		addRoleSave.click();
-//		Thread.sleep(500);
+		Thread.sleep(500);
 	}
 	
 	public void RemoveRoleFromGroup() throws Exception {
@@ -189,7 +190,7 @@ public class ManageGroupPage {
 		TestBase.weClickeable(confirmRemoveGroupAuthorizationGrant);
 		confirmRemoveGroupAuthorizationGrant.click();
 		TestBase.weVisible(grantedAuthorizationsMessage);
-//		Thread.sleep(500);
+		Thread.sleep(500);
 	}
 		
 	public void Validation(String msg) throws Exception {

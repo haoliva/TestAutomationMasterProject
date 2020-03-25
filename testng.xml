@@ -6,14 +6,14 @@
 			<class name="testCases.APItests" />
 			<class name="testCases.TestBase" />
 			<class name="testCases.LoginTest" />
-			<class name="testCases.OrganizationSetupTest" />
+			<!-- <class name="testCases.OrganizationSetupTest" /> -->
 			<class name="testCases.CreateNewGroupTest"/>
 			<!-- <class name="testCases.AddUserToGroupTest"/> -->
 			<!-- <class name="testCases.RemoveUserFromGroupTest"/> -->
 			<!-- <class name="testCases.CreateNewWorkspaceTest" /> -->
 			<!-- <class name="testCases.CreateNewSystemRoleTest"/> -->
-			<!-- <class name="testCases.AddRoleToGroupTest"/> -->
-			<!-- <class name="testCases.RemoveRoleFromGroupTest"/> -->
+			<class name="testCases.AddRoleToGroupTest"/>
+			<class name="testCases.RemoveRoleFromGroupTest"/>
 			<!-- <class name="testCases.DeleteSystemRoleTest"/> -->
 			<!-- <class name="testCases.AssignComponentsToWorkspaceTest" /> -->
 			<!-- <class name="testCases.AssignUsersToWorkspaceTest" /> -->
