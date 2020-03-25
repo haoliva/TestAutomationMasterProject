@@ -1,68 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="10" total="15" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Test_Automation_Master_Project" duration-ms="39428" started-at="2020-03-24T19:52:22Z" finished-at="2020-03-24T19:53:02Z">
+  <suite name="Default suite" duration-ms="2190" started-at="2020-03-25T15:45:40Z" finished-at="2020-03-25T15:45:42Z">
     <groups>
     </groups>
-    <test name="BCV Tests" duration-ms="39428" started-at="2020-03-24T19:52:22Z" finished-at="2020-03-24T19:53:02Z">
-      <class name="testCases.OrganizationSetupTest">
-        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.OrganizationSetupTest@192d3247]" name="processes" duration-ms="10313" started-at="2020-03-24T19:52:32Z" finished-at="2020-03-24T19:52:42Z">
+    <test name="Default test" duration-ms="2190" started-at="2020-03-25T15:45:40Z" finished-at="2020-03-25T15:45:42Z">
+      <class name="testCases.APItests">
+        <test-method status="PASS" signature="requestMethodGet()[pri:0, instance:testCases.APItests@7cbd213e]" name="requestMethodGet" duration-ms="1585" started-at="2020-03-25T15:45:40Z" finished-at="2020-03-25T15:45:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- processes -->
-      </class> <!-- testCases.OrganizationSetupTest -->
-      <class name="testCases.LogoutTest">
-        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.LogoutTest@43bd930a]" name="processes" duration-ms="474" started-at="2020-03-24T19:53:01Z" finished-at="2020-03-24T19:53:02Z">
+        </test-method> <!-- requestMethodGet -->
+        <test-method status="PASS" signature="requestMethodPost()[pri:0, instance:testCases.APItests@7cbd213e]" name="requestMethodPost" duration-ms="567" started-at="2020-03-25T15:45:41Z" finished-at="2020-03-25T15:45:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- processes -->
-      </class> <!-- testCases.LogoutTest -->
-      <class name="testCases.LoginTest">
-        <test-method status="PASS" signature="processes(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@7cbd213e]" name="processes" duration-ms="8684" started-at="2020-03-24T19:52:23Z" data-provider="testDataFeed" finished-at="2020-03-24T19:52:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://testing.bconview.com/login]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[hernano]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Test2001!]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- processes -->
-      </class> <!-- testCases.LoginTest -->
-      <class name="testCases.TestBase">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.TestBase@52f759d7]" name="initialize" is-config="true" duration-ms="10817" started-at="2020-03-24T19:52:12Z" finished-at="2020-03-24T19:52:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:testCases.TestBase@52f759d7]" name="TeardownTest" is-config="true" duration-ms="689" started-at="2020-03-24T19:53:02Z" finished-at="2020-03-24T19:53:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TeardownTest -->
-      </class> <!-- testCases.TestBase -->
-      <class name="testCases.DeleteGroupTest">
-        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.DeleteGroupTest@569cfc36]" name="processes" duration-ms="9622" started-at="2020-03-24T19:52:52Z" finished-at="2020-03-24T19:53:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- processes -->
-      </class> <!-- testCases.DeleteGroupTest -->
-      <class name="testCases.CreateNewGroupTest">
-        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.CreateNewGroupTest@3ecd23d9]" name="processes" duration-ms="9684" started-at="2020-03-24T19:52:42Z" finished-at="2020-03-24T19:52:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- processes -->
-      </class> <!-- testCases.CreateNewGroupTest -->
-    </test> <!-- BCV Tests -->
-  </suite> <!-- Test_Automation_Master_Project -->
+        </test-method> <!-- requestMethodPost -->
+      </class> <!-- testCases.APItests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

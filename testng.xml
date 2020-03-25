@@ -3,6 +3,7 @@
 <suite name="Test_Automation_Master_Project">
   <test name="BCV Tests">
 		<classes>
+			<class name="testCases.APItests" />
 			<class name="testCases.TestBase" />
 			<class name="testCases.LoginTest" />
 			<class name="testCases.OrganizationSetupTest" />
