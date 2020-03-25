@@ -92,7 +92,8 @@ public class ManageGroupPage {
 		groups.click();		
 	}
 	
-	public void Groups() {
+	public void Groups() throws Exception {
+		TestBase.weVisible(groups);
 		groups.click();		
 	}
 	
