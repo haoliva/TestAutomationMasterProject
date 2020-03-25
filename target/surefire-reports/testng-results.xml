@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="10" total="15" passed="5">
+<testng-results skipped="0" failed="0" ignored="10" total="17" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Test_Automation_Master_Project" duration-ms="39206" started-at="2020-03-24T20:17:50Z" finished-at="2020-03-24T20:18:29Z">
+  <suite name="Test_Automation_Master_Project" duration-ms="48606" started-at="2020-03-25T16:03:43Z" finished-at="2020-03-25T16:04:32Z">
     <groups>
     </groups>
-    <test name="BCV Tests" duration-ms="39206" started-at="2020-03-24T20:17:50Z" finished-at="2020-03-24T20:18:29Z">
+    <test name="BCV Tests" duration-ms="48606" started-at="2020-03-25T16:03:43Z" finished-at="2020-03-25T16:04:32Z">
       <class name="testCases.OrganizationSetupTest">
-        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.OrganizationSetupTest@3712b94]" name="processes" duration-ms="10373" started-at="2020-03-24T20:17:59Z" finished-at="2020-03-24T20:18:10Z">
+        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.OrganizationSetupTest@bd8db5a]" name="processes" duration-ms="10296" started-at="2020-03-25T16:04:02Z" finished-at="2020-03-25T16:04:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- processes -->
       </class> <!-- testCases.OrganizationSetupTest -->
-      <class name="testCases.LogoutTest">
-        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.LogoutTest@27a8c74e]" name="processes" duration-ms="1099" started-at="2020-03-24T20:18:28Z" finished-at="2020-03-24T20:18:29Z">
+      <class name="testCases.APItests">
+        <test-method status="PASS" signature="requestMethodGet()[pri:0, instance:testCases.APItests@3043fe0e]" name="requestMethodGet" duration-ms="1639" started-at="2020-03-25T16:03:43Z" finished-at="2020-03-25T16:03:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- processes -->
-      </class> <!-- testCases.LogoutTest -->
+        </test-method> <!-- requestMethodGet -->
+        <test-method status="PASS" signature="requestMethodPost()[pri:0, instance:testCases.APItests@3043fe0e]" name="requestMethodPost" duration-ms="701" started-at="2020-03-25T16:03:45Z" finished-at="2020-03-25T16:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestMethodPost -->
+      </class> <!-- testCases.APItests -->
       <class name="testCases.LoginTest">
-        <test-method status="PASS" signature="processes(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@4d41cee]" name="processes" duration-ms="8516" started-at="2020-03-24T20:17:51Z" data-provider="testDataFeed" finished-at="2020-03-24T20:17:59Z">
+        <test-method status="PASS" signature="processes(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@78e67e0a]" name="processes" duration-ms="9078" started-at="2020-03-25T16:03:53Z" data-provider="testDataFeed" finished-at="2020-03-25T16:04:02Z">
           <params>
             <param index="0">
               <value>
@@ -41,24 +45,30 @@
           </reporter-output>
         </test-method> <!-- processes -->
       </class> <!-- testCases.LoginTest -->
-      <class name="testCases.DeleteGroupTest">
-        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.DeleteGroupTest@33f88ab]" name="processes" duration-ms="9541" started-at="2020-03-24T20:18:19Z" finished-at="2020-03-24T20:18:28Z">
+      <class name="testCases.LogoutTest">
+        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.LogoutTest@4b553d26]" name="processes" duration-ms="1053" started-at="2020-03-25T16:04:31Z" finished-at="2020-03-25T16:04:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- processes -->
-      </class> <!-- testCases.DeleteGroupTest -->
+      </class> <!-- testCases.LogoutTest -->
       <class name="testCases.TestBase">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.TestBase@17579e0f]" name="initialize" is-config="true" duration-ms="10363" started-at="2020-03-24T20:17:40Z" finished-at="2020-03-24T20:17:50Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.TestBase@17d677df]" name="initialize" is-config="true" duration-ms="14908" started-at="2020-03-25T16:03:28Z" finished-at="2020-03-25T16:03:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:testCases.TestBase@17579e0f]" name="TeardownTest" is-config="true" duration-ms="683" started-at="2020-03-24T20:18:29Z" finished-at="2020-03-24T20:18:30Z">
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:testCases.TestBase@17d677df]" name="TeardownTest" is-config="true" duration-ms="662" started-at="2020-03-25T16:04:32Z" finished-at="2020-03-25T16:04:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->
       </class> <!-- testCases.TestBase -->
+      <class name="testCases.DeleteGroupTest">
+        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.DeleteGroupTest@80503]" name="processes" duration-ms="9283" started-at="2020-03-25T16:04:21Z" finished-at="2020-03-25T16:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- processes -->
+      </class> <!-- testCases.DeleteGroupTest -->
       <class name="testCases.CreateNewGroupTest">
-        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.CreateNewGroupTest@2833cc44]" name="processes" duration-ms="8984" started-at="2020-03-24T20:18:10Z" finished-at="2020-03-24T20:18:19Z">
+        <test-method status="PASS" signature="processes()[pri:0, instance:testCases.CreateNewGroupTest@2f943d71]" name="processes" duration-ms="9329" started-at="2020-03-25T16:04:12Z" finished-at="2020-03-25T16:04:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- processes -->

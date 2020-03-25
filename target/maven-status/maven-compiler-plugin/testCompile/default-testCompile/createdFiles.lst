@@ -1,3 +1,4 @@
+testCases\APItests.class
 fileIO\ReadExcelFile.class
 pageFactory\OrganizationSetupPage.class
 testCases\RemoveRoleFromGroupTest.class
